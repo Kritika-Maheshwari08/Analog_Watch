@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#clockContainer{
+    /* so that jo hum hands bnayenge vo bar bar chang eni honge in relative to site page */
+    position: relative;
+    /* creation of box so that the clock fits in */
+    height: 40vw;
+    width: 40vw;
+    background-image: url(clock.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* to make the clock at centre */
+   margin: auto;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+/* hr hand ko uske centre se rotate nhi krwana usko bottom se uske rotate krwana h tbhi vo clock ke mid wala pta chlega */
+transform-origin: bottom;
+}
+
+#hour{
+        width: 1.8%;
+        height:25%;
+        left:48.8%;
+        top:25%;
+        opacity: 0.8;
+}
+#minute{
+    width: 1.6%;
+    height:30%;
+    left:48.8%;
+    top:19%;
+    opacity: 0.8;
+    
+}
+#second{
+    width: 1%;
+    height:40%;
+    left:49.5%;
+    top:9%;
+    opacity: 0.8;
+}
