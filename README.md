@@ -28,4 +28,4 @@ This is a simple web-based **Analog Clock/Watch** created using **HTML**, **CSS*
 ## ⌚ Analog Watch Web App
 
 Live Demo:  
-👉 [Click to View](https://Kritika-Maheshwari08.github.io/analog-watch-project/)
+👉 [Click to View](https://kritika-maheshwari08.github.io/Analog_Watch/)
